@@ -1,0 +1,80 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;login-valido",
+        "keyword": "Cenário",
+        "line": 4,
+        "name": "Login valido",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 2114268500,
+              "error_message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://prd.opensource-demo.orangehrmlive.com/web/index.php/auth/login\nCall log:\n\u001b[2m  - navigating to \"https://prd.opensource-demo.orangehrmlive.com/web/index.php/auth/login\", waiting until \"load\"\u001b[22m\n\n    at CustomWorld.<anonymous> (C:\\projetos\\webPlaywrightOrange\\support\\hooks.js:21:19)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que acesso a pagina de login da orange",
+            "match": {
+              "location": "steps\\login.steps.js:5"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 6,
+            "name": "fizer login com username e senha validos",
+            "match": {
+              "location": "steps\\login.steps.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 7,
+            "name": "o titulo da pagina deve ser \"Dashboard\"",
+            "match": {
+              "location": "steps\\login.steps.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 633686099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 2,
+    "keyword": "Funcionalidade",
+    "name": "Login",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
